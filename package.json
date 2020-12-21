@@ -1,6 +1,9 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "dev": "lerna exec -- npm run dev"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   }

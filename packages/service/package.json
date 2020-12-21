@@ -1,0 +1,30 @@
+{
+  "name": "@mono/service",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Bradley Gaynor <BradleyGaynor@northwesternmutual.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "ts-node-dev ./src/index.ts",
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
