@@ -23,6 +23,7 @@
     "start": "node build/index.js"
   },
   "dependencies": {
+    "@mono/lib": "^0.0.0",
     "apollo-server": "^2.19.0",
     "ts-node-dev": "^1.1.1",
     "typescript": "^4.1.3"
