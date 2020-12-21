@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { getSomeValue } from '@mono/lib'
 
 function App() {
+  console.log(getSomeValue())
   return (
     <div className="App">
       <header className="App-header">

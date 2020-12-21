@@ -2,8 +2,8 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "dev": "lerna exec -- npm run dev",
-    "install:all": "lerna exec -- npm install"
+    "dev": "lerna run dev --parallel",
+    "install:all": "lerna run install"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
