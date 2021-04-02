@@ -12,7 +12,6 @@ export const typeDefs = gql`
     """
     authorName: String!
     author: Author!
-    coAuthor: Author
   }
   
   type Author {
