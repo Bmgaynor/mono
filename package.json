@@ -3,9 +3,16 @@
   "private": true,
   "scripts": {
     "dev": "lerna run dev --parallel",
-    "install:all": "lerna run install"
+    "install:all": "lerna run install",
+    "lint": "eslint . --cache --ext js,jsx,ts,tsx,md"
+  },
+  "eslintConfig": {
+    "extends": [
+      "recommended"
+    ]
   },
   "devDependencies": {
+    "eslint": "^7.16.0",
     "lerna": "^3.22.1"
   }
 }
