@@ -13,4 +13,4 @@ jobs:
 
       - uses: kamilkisiela/graphql-inspector@master
         with:
-          schema: 'main:../packages/service/type-defs.ts'
+          schema: 'main:../packages/service/src/type-defs.ts'
